@@ -5,5 +5,6 @@ function getFormvalue() {
 	let l_name=inp[1].value
 	let name=f_name+ " " + l_name
 	alert(name)
+	output.innerHTML = `Name is ${name}`
 
 }
